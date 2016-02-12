@@ -21,6 +21,7 @@ stations = (
 # Create the station list
 for station in stations:
     li = xbmcgui.ListItem(station[0])
+    li.setInfo('music', {'artist': station[0]})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=station[1], listitem=li)
 
 # End the list
