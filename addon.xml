@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.baliradiostreaming" name="Bali Radio Streaming" version="1.0.0" provider-name="Eka Putra">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Bali Radio Streaming</summary>
+		<description lang="en">Listen various Bali based radio stations via Kodi</description>
+		<license>MIT License</license>
+		<language>en</language>
+		<forum></forum>
+		<source>https://github.com/ekaputra/plugin.audio.baliradiostreaming</source>
+		<email>eka@balicodes.com</email>
+	</extension>
+</addon>
